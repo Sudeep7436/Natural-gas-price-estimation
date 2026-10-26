@@ -15,12 +15,14 @@ File: Credit risk analysis.ipynb
 * Worked with logistic regression and probability of default concepts.
 * Examined how quantitative analysis can support lending decisions.
 
+
 2. Bucket FICO Scores
 File: Bucket FICO Scores.ipynb
 * Worked with FICO credit scores for credit risk assessment.
 * Explored score bucketing to group borrowers into risk categories.
 * Used log-likelihood calculations and dynamic programming to determine score buckets.
 * Examined how credit score groups can help distinguish different levels of default risk.
+
 
 3. Natural Gas Price Data Analysis
 File: Investigate and analyze price data natural_gas.ipynb
@@ -29,6 +31,7 @@ File: Investigate and analyze price data natural_gas.ipynb
 * Investigated monthly seasonality in natural gas prices.
 * Developed a forecasting approach to estimate prices for the following 12 months.
 
+
 4. Commodity Storage Contract Pricing
 File: Price a commodity storage contract.ipynb
 * Developed a prototype for estimating natural gas prices on specific dates.
@@ -36,9 +39,11 @@ File: Price a commodity storage contract.ipynb
 * Explored price extrapolation for dates outside the observed period.
 * Applied the estimated prices to a commodity storage contract pricing problem.
 
+
 Dataset
 File: Nat_Gas.csv
 The dataset contains monthly natural gas price observations from October 2020 to September 2024.
+
 
 Column
 Description
@@ -46,6 +51,7 @@ Description
 * Prices: Observed natural gas price
 The dataset is used for natural gas price analysis and commodity storage contract pricing.
 The credit risk and FICO score notebooks require a separate loan dataset that is not included in this repository.
+
 
 Technologies Used
 * Python – Data analysis and model development
@@ -56,8 +62,9 @@ Technologies Used
 * SciPy – Scientific and statistical computations
 * Jupyter Notebook – Interactive coding and analysis
 
+
 JP-Morgan-Quantitative-Research/
-│
+
 ├── Credit risk analysis.ipynb
 ├── Bucket FICO Scores.ipynb
 ├── Investigate and analyze price data natural_gas.ipynb
